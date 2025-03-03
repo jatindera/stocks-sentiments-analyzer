@@ -1,0 +1,1 @@
+# Message queue handling (RabbitMQ, Azure Service Bus)

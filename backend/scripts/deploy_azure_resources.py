@@ -1,0 +1,1 @@
+# Deploy Azure resources script

@@ -1,0 +1,12 @@
+# Python dependencies
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+tweepy
+requests
+beautifulsoup4
+openai
+azure-cosmos
+azure-storage-blob
+pymupdf

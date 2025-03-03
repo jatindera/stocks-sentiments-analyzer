@@ -1,0 +1,85 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.env
+*.local
+.env.local
+.env.development
+.env.production
+.vscode/
+.idea/
+node_modules/
+__pycache__/
+venv/
+venv*/
+dist/
+build/
+coverage/
+*.swp
+*.swo
+
+# **Python (FastAPI) Backend (`backend/app`)**
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*.pyc
+backend/app/*.pyo
+backend/app/.pytest_cache/
+backend/app/.mypy_cache/
+backend/app/.ruff_cache/
+backend/app/.tox/
+backend/app/.venv/
+backend/app/instance/
+backend/app/logs/
+backend/app/config.json  # If config files contain secrets
+
+# Virtual Environments
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/.env.*
+backend/.python-version
+
+# **Next.js/React.js Frontend (`frontend`)**
+frontend/.next/
+frontend/.vercel/
+frontend/.turbo/
+frontend/.eslintcache
+frontend/node_modules/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/npm-debug.log
+frontend/pnpm-lock.yaml
+frontend/.swc/
+frontend/.cache/
+frontend/.parcel-cache/
+
+# **Docker & CI/CD**
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+backend/Dockerfile
+frontend/Dockerfile
+logs/
+coverage/
+*.pid
+
+# **IDE and Editor-Specific Files**
+.vscode/
+.idea/
+*.iml
+
+# **Miscellaneous**
+*.bak
+*.orig
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
