@@ -1,4 +1,5 @@
 # General
+.vscode/
 .DS_Store
 Thumbs.db
 *.log
@@ -7,7 +8,7 @@ Thumbs.db
 .env.local
 .env.development
 .env.production
-.vscode/
+
 .idea/
 node_modules/
 __pycache__/
@@ -41,6 +42,13 @@ backend/.env
 backend/.env.*
 backend/.python-version
 
+function-app/.venv/
+function-app/venv/
+function-app/env/
+function-app/.env
+function-app/.env.*
+function-app/.python-version
+
 # **Next.js/React.js Frontend (`frontend`)**
 frontend/.next/
 frontend/.vercel/
@@ -71,7 +79,7 @@ coverage/
 *.pid
 
 # **IDE and Editor-Specific Files**
-.vscode/
+
 .idea/
 *.iml
 
